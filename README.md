@@ -66,5 +66,3 @@ Right now, Orb must be compiled from
 ## demo
 
 Currently hosted on [youtube](https://www.youtube.com/embed/Q3QjTMByalk).
-
-{{FOOTER}}
