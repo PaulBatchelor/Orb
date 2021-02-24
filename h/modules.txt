@@ -1,0 +1,11 @@
+sp_butlp
+sp_data
+sp_delay
+sp_fosc
+sp_ftbl
+sp_port
+sp_randh
+sp_rspline
+sp_tenv
+sp_thresh
+sp_trand
