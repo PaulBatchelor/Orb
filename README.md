@@ -52,14 +52,19 @@ Right now, Orb must be compiled from
 [source](http://git.sr.ht/~pbatch/orb).
 
 ## Screenshots
-[![Level 1](img/small/orblevel1.png)](img/large/orblevel1.png)
-[![Level 2](img/small/orblevel2.png)](img/large/orblevel2.png)
-[![Level 3](img/small/orblevel3.png)](img/large/orblevel3.png)
-[![Level 4](img/small/orblevel4.png)](img/large/orblevel4.png)
-[![Level 5](img/small/orblevel5.png)](img/large/orblevel5.png)
 
-## deo
+![Level 1](img/small/orblevel1.png)
 
-<iframe width="500" height="315" src="https://www.youtube.com/embed/Q3QjTMByalk" frameborder="0" allowfullscreen></iframe>
+![Level 2](img/small/orblevel2.png)
+
+![Level 3](img/small/orblevel3.png)
+
+![Level 4](img/small/orblevel4.png)
+
+![Level 5](img/small/orblevel5.png)
+
+## demo
+
+Currently hosted on [youtube](https://www.youtube.com/embed/Q3QjTMByalk).
 
 {{FOOTER}}
