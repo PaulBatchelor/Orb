@@ -125,6 +125,11 @@ LDFLAGS += -lm -lGLESv3 -lEGL -landroid -llog
 LDFLAGS += -shared -uANativeActivity_onCreate
 LDFLAGS += -lOpenSLES
 
+ifdef LOFI
+CFLAGS+=-DLOFI_MODE=1
+endif
+	
+
 DIR+=nanovg
 
 USER_DIR=$(addprefix $(BUILDDIR)/obj/$(ARCH)/, $(DIR))

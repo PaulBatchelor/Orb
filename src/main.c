@@ -14,6 +14,7 @@
 #include <assert.h>
 #include <android/log.h>
 
+
 /* OpenSL audio */
 #include <SLES/OpenSLES.h>
 #include <SLES/OpenSLES_Android.h>
@@ -629,7 +630,7 @@ void synth_init(void *ctx, int sr)
     height = Engine.gfx.height;
     orb = malloc(sizeof(orb_data));
 
-    orb_init(orb, 44100);
+    orb_init(orb, sr);
     orb->width = width;
     orb->height = height;
     orb_grid_calculate(orb);
@@ -742,7 +743,12 @@ void android_main(struct android_app *state)
                                    AWINDOW_FLAG_FULLSCREEN | AWINDOW_FLAG_KEEP_SCREEN_ON);
 
 
+#ifdef LOFI_MODE
+    audio_create(&Engine.snd, 22050, 512);
+#else
     audio_create(&Engine.snd, 44100, 256);
+#endif
+
     hide_navbar(state);
 
     while (1) {
